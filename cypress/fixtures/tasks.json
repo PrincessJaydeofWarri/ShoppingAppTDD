@@ -1,0 +1,22 @@
+[
+  {
+    "id":1,
+    "name": "Apply Cleanser",
+    "isComplete": false
+  },
+  {
+    "id":2,
+    "name": "Apply Toner",
+    "isComplete": true
+  },
+  {
+    "id":3,
+    "name": "Apply Serums",
+    "isComplete": false
+  },
+  {
+    "id":4,
+    "name": "Apply Moisturizer",
+    "isComplete": false
+  }
+]
