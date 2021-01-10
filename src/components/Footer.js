@@ -5,7 +5,7 @@ export default props =>
   <footer className="footer">
     <span className="task-count">
       <strong>{props.remaining}</strong>
-        {props.remaining === 1 ? ' items' : ' items'} left
+        {props.remaining === 1 ? ' item' : ' items'} left
     </span>
     <ul className="filters">
       <li><Link to="/">All</Link></li>

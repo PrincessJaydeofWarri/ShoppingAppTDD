@@ -2,7 +2,7 @@ describe('Footer', () => {
   context('with a single step', () => {
     it('displays a singular task in count', () =>{
       cy.seedAndVisit([{id: 1, name: 'Apply Cleanser', isComplete: false}])
-      cy.get('.task-count').should('contain', '1 task left')
+      cy.get('.task-count').should('contain', '1 item left')
     })
   })
 
@@ -11,7 +11,7 @@ describe('Footer', () => {
       cy.seedAndVisit()
     })
     it('displays plural tasts in count', () => {
-      cy.get('.task-count').should('contain', '3 tasks left')
+      cy.get('.task-count').should('contain', '3 items left')
     })
 
     it('Handles Filter links', () => {
