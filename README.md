@@ -1,1 +1,1 @@
-# Build and test an application using Cypress
+# Build and test a React application using Cypress
