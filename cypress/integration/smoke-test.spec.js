@@ -6,9 +6,9 @@ describe('Smoke tests', () => {
   })
   context('with no tasks', () => {
     it('saves new tasks', () => {
-      const items = [{text: 'Apply Cleanser', expectedLength: 1},
-    {text: 'Apply Toner', expectedLength: 2},
-  {text: 'Apply Serums', expectedLength: 3}]
+      const items = [{text: 'Buy Skincare', expectedLength: 1},
+    {text: 'Buy Haircare', expectedLength: 2},
+  {text: 'But Strawberries', expectedLength: 3}]
       cy.visit('/')
       cy.server()
       cy.route('POST', 'api/tasks').as('create')

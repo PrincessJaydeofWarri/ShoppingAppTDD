@@ -3,7 +3,7 @@ import {BrowserRouter as Router, Route} from 'react-router-dom'
 import TaskForm from './TaskForm'
 import TaskList from './TaskList'
 import Footer from './Footer'
-import '../images/dloglow1.png'
+import logo from '../images/dloglow1.png'
 import {saveTask, loadTasks, destroyTask, updateTask} from '../lib/service'
 import {filterTasks} from '../lib/utils'
 
@@ -63,7 +63,7 @@ handleTaskSubmit (evt) {
       <Router>
         <div>
           <header className="header">
-            <img src={require('../images/dloglow1.png')} alt="developherj-logo"/>
+            <img src={logo} alt="developherj-logo"/>
             <h1>Shopping List</h1>
             {this.state.error ? <span className='error'>Cant be done!</span> : null}
             <TaskForm currentTask={this.state.currentTask}

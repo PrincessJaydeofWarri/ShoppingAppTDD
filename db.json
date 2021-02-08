@@ -2,22 +2,22 @@
   "tasks": [
     {
       "id": 1,
-      "name": "Apply Cleanser",
+      "name": "Buy Skincare",
       "isComplete": false
     },
     {
       "id": 2,
-      "name": "Apply Toner",
+      "name": "Buy Haircare",
       "isComplete": false
     },
     {
       "id": 3,
-      "name": "Apply Serums",
+      "name": "Buy Strawberries",
       "isComplete": false
     },
     {
       "id": 4,
-      "name": "Apply Moisturizer",
+      "name": "Buy Chocolate",
       "isComplete": false
     }
   ]

@@ -4,7 +4,7 @@ describe('List items', () => {
   })
   it('Properly displays completed items', () => {
     cy.get('.task-list li').filter('.completed').should('have.length', 1)
-    .and('contain', 'Toner').find('.toggle').should('be.checked')
+    .and('contain', 'Haircare').find('.toggle').should('be.checked')
   })
 
   it('Shows tasks remaining', () => {
